@@ -1,0 +1,46 @@
+# Node.js dependencies
+/node_modules
+
+# Optional: Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.log.*
+*.eslintcache
+
+# Environment variables
+.env
+
+# Dependency directories should be ignored by default
+# (Optional: unless running Yarn with --no-node-modules flag)
+# If you wish to keep dependencies in source control,
+# comment out the next line
+node_modules/
+
+# Compiled binary addons (like node-sass)
+/build/
+
+# Distribution directory
+/dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Docker
+.dockerignore
+
+# Ignore any local development configurations
+.localconfig
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Jest coverage directory
+coverage/
