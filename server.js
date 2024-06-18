@@ -18,7 +18,11 @@ mongoose.connect(process.env.MONGO_URI).then(()=>{
 })
 
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: 'https://latest-chat-app-test.vercel.app', // Replace with your React app's IP or domain
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+}));
 
 
 
